@@ -14,6 +14,6 @@ class Pippo {
     System.out.println("Errore di connessione");
 }
 public void methodB() {
-    log.error("Errore di connessione");
+    System.out.println("Errore di connessione");
 }
 }
