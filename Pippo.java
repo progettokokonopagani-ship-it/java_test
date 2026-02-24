@@ -6,6 +6,9 @@ class Pippo {
 
           System.out.println(msg);
       }
-      
+
+    String pippo = null;
+
+    int len = pippo.length();
   }
 }
