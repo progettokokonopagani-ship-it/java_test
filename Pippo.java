@@ -5,6 +5,7 @@ class Pippo {
       if (pippo instanceof final String msg) {
 
           System.out.println(msg);
+        System.out.println(msg+msg);
       }
 
     
