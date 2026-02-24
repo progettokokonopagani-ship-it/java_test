@@ -11,6 +11,10 @@ class Pippo {
     
   }
 
+  Boolean isSameNumberValue(AtomicLong a, AtomicLong b) {
+  return a.equals(b); // Noncompliant, this is true only if a == b
+}
+
   public void methodA() {
     System.out.println("Errore di connessione");
 }
