@@ -7,8 +7,13 @@ class Pippo {
           System.out.println(msg);
       }
 
-    String pippo = null;
-
-    int len = pippo.length();
+    
   }
+
+  public void methodA() {
+    System.out.println("Errore di connessione");
+}
+public void methodB() {
+    log.error("Errore di connessione");
+}
 }
